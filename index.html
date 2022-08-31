@@ -3,13 +3,15 @@
 
 <head>
     <title>The Basic Language of the web: HTML</title>
+    <link href="./style.css" rel="stylesheet">
 </head>
 
 <body>
-    <header>
+    <header class="main-header">
         <h1>The Code Magazine</h1>
 
         <nav>
+
             <a href="blog.html">BLOG</a>
             <a href="#">Challenges</a>
             <a href="#">Flex Box</a>
@@ -23,7 +25,7 @@
 
             <img src="laura-jones.jpg" alt="Picture of Laura Jones" width="50" height="50">
 
-            <p>Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
+            <p id="author">Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
 
             <img src="post-img.jpg" alt="Picture of HTML code" width="500" height="200">
         </header>
@@ -75,21 +77,23 @@
 
     <aside>
         <h4>Related posts</h4>
-        <ul>
+        <ul class="related">
             <li><img src="related-1.jpg" alt="Related post 1" width="50" height="50"><a href="#">How to learn Web
                     Development</a></li>
-            <p>By Soyam Gupta</p>
+            <p class="related-author">By Soyam Gupta</p>
             <li><img src="related-2.jpg" alt="Related post 2" width="50" height="50"><a href="#">The unknown powers of
                     CSS</a></li>
-            <p>By Deepak Yadav</p>
+            <p class="related-author">By Deepak Yadav</p>
             <li><img src="related-3.jpg " alt="Related post 3" width="50" height="50"><a href="#">Why Javascript is
                     awesome</a></li>
-            <p>By Jonas Schmedtmann</p>
+            <p class="related-author">By Jonas Schmedtmann</p>
         </ul>
     </aside>
 
 
-    <footer>Copyright &copy; 2027 by the Code Magazine</footer>
+    <footer>
+        <p id="copyright" class="copyright" class="sample">Copyright &copy; 2027 by the Code Magazine</p>
+    </footer>
 
 </body>
 

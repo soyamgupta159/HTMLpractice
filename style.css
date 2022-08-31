@@ -1,0 +1,164 @@
+body {
+    color: #444;
+    font-family: sans-serif;
+    background-color: rgb(241, 241, 124);
+}
+
+/* header p {
+    background-color: aqua;
+}
+
+article header p {
+    background-color: red;
+}
+
+p {
+    background-color: azure;
+} */
+
+/* h1,
+h2,
+h3,
+h4,
+p,
+li {
+    font-family: sans-serif;
+    color: #444
+} */
+
+
+h1,
+h2,
+h3 {
+    color: blue;
+}
+
+
+h1 {
+    font-size: 26px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p {
+    font-size: 22px;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+/* nav {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 30px;
+} */
+
+li {
+    font-size: 20px;
+}
+
+/*footer p {
+    font-size: 16px;
+}*/
+
+#author {
+    font-size: 16px;
+    font-style: italic;
+}
+
+#copyright {
+    font-size: 16px;
+}
+
+.related-author {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.related {
+    list-style: none;
+}
+
+.main-header {
+    background-color: rgb(248, 236, 220);
+    border-top: 3px solid rgb(88, 88, 88);
+    border-bottom: 3px solid rgb(88, 88, 88);
+}
+
+
+aside {
+    background-color: rgb(248, 236, 220);
+    border-top: 3px solid rgb(88, 88, 88);
+    border-bottom: 3px solid rgb(88, 88, 88);
+}
+
+/*li:first-child {
+    color: 
+
+}*/
+
+/* aside p:last-child {
+    color: red
+}
+
+footer p {
+    color: red
+} */
+
+a:link {
+    text-decoration: none;
+    color: blue
+}
+
+/* a:visited {
+    color: red;
+} */
+
+a:hover {
+    color: brown;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a:active {
+    background-color: yellow;
+    font-style: italic;
+}
+
+/* .sample {
+    color: yellow
+}
+
+.copyright {
+    color: green
+} */
+
+/* #copyright {
+    color: pink
+} */
+
+/* p {
+    background-color: aliceblue;
+} */
+
+/* footer p {
+    background-color: blue;
+    text-decoration: none;
+}
+
+p {
+    background-color: aliceblue;
+} */
