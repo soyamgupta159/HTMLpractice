@@ -6,12 +6,14 @@
 body {
     color: #444;
     font-family: sans-serif;
+    position: relative;
 }
 
 .container {
     width: 800px;
     margin: 0 auto;
     background-color: rgb(224, 187, 91);
+    position: relative;
 }
 
 .main-header {
@@ -21,11 +23,11 @@ body {
     padding: 20px;
     padding: 20px 40px;
     margin-bottom: 50px;
-    height: 80px;
 }
 
 .post-header {
     margin-bottom: 40px;
+    position: relative;
 }
 
 article {
@@ -55,6 +57,7 @@ h1 {
 h2 {
     font-size: 40px;
     margin-bottom: 30px;
+    position: relative;
 }
 
 h3 {
@@ -114,6 +117,18 @@ li:last-child {
     list-style: none;
 }
 
+nav a {
+
+    margin-right: 30px;
+    margin-top: 10px;
+    display: inline-block;
+
+}
+
+nav a:link:last-child {
+    margin-right: 0;
+}
+
 a:link {
     text-decoration: none;
     color: blue
@@ -128,4 +143,39 @@ a:hover {
 a:active {
     background-color: yellow;
     font-style: italic;
+}
+
+button {
+    font-size: 22px;
+    padding: 20px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    right: -150px;
+}
+
+/* h3+p::first-line {
+    color: red
+} */
+
+/* h1::first-letter {
+    color: black;
+    font-size: 100px;
+} */
+
+/* p::first-line {
+    font-weight: bold;
+    color: red;
+} */
+
+h2::after {
+    content: "TOP";
+    background-color: yellow;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+
+    position: absolute;
+    bottom: 0;
+    right: -10px;
 }
